@@ -2,9 +2,10 @@
 #define TALKER_H
 
 #include "socket.hpp"
-#include "json.hpp"
+#include <nlohmann/json.hpp>
 #include <unordered_map>
 #include <mutex>
+#include <shared_mutex>
 
 using json = nlohmann::json;
 

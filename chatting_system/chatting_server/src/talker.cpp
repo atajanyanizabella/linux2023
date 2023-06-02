@@ -55,7 +55,7 @@ void chatting::talker::login()
             return;
         }
         attempt_login(buff);
-        delete buff;
+        delete [] buff;
     }
 }
 
